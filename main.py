@@ -1,5 +1,10 @@
 # AIM: Write a Python program to calculate the simple interest based on user input.
-# Coder:
-# Date:
+# Coder: mehreen ansari
+# Date: 08/02/26
 
-# Write your code here
+print("****SIMPLE INTEREST CALCULATOR****")
+principal = float(input())
+rate = float(input())
+time = float(input())
+simple_interest = (principal * rate * time) / 100
+print(f"The simple interest is : ",(simple_interest))
