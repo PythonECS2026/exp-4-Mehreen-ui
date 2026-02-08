@@ -3,8 +3,8 @@
 # Date: 08/02/26
 
 print("****SIMPLE INTEREST CALCULATOR****")
-principal = float(input())
-rate = float(input())
-time = float(input())
+principal = int(input())
+rate = int(input())
+time = int(input())
 simple_interest = (principal * rate * time) / 100
 print(f"The simple interest is : ",(simple_interest))
